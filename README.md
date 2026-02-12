@@ -9,7 +9,8 @@
 <div display="inline">
 &nbsp;&nbsp;<img width=100 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" />&nbsp;&nbsp;
 &nbsp;&nbsp;<img width=100 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" />&nbsp;&nbsp;
-  <img width=100 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg" />
+&nbsp;&nbsp;<img width=100 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg" />&nbsp;&nbsp;
+  <img width=100 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-plain-wordmark.svg" />
 <div>
 
 > Esse projeto foi um desenvolvimento próprio para realizar a análise de um dataframe de vibrações para fins de monitoramento, buscando estabelecar parâmetros que indiquem
