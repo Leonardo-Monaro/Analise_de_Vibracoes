@@ -12,45 +12,31 @@
 &nbsp;&nbsp;<img width=100 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg" />&nbsp;&nbsp;
   <img width=100 src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-plain-wordmark.svg" />
 <div>
-Análise de Vibração e Manutenção Preditiva
 
-Este projeto tem como objetivo desenvolver uma pipeline completa de análise de vibração aplicada à manutenção preditiva, integrando engenharia de features, redução de dimensionalidade, clustering não supervisionado e visualização interativa via Streamlit.
-
-O foco principal é detectar comportamentos anômalos em sinais de vibração, permitindo identificar padrões operacionais normais e desvios que podem indicar falhas incipientes em motores ou equipamentos rotativos.
+> Este projeto tem como objetivo desenvolver uma pipeline completa de análise de vibração aplicada à manutenção preditiva, integrando engenharia de features, redução de dimensionalidade, clustering não supervisionado e visualização interativa via Streamlit.
+> O foco principal é detectar comportamentos anômalos em sinais de vibração, permitindo identificar padrões operacionais normais e desvios que podem indicar falhas incipientes em motores ou equipamentos rotativos.
 
 🔍 Visão Geral do Processo
 
-O fluxo do projeto é composto pelas seguintes etapas:
+> O fluxo do projeto é composto pelas seguintes etapas:
+> Leitura e pré-processamento dos sinais de vibração
+> Extração de features no domínio do tempo
+> RMS
+> Kurtosis
+> Estatísticas descritivas por janela
+> Normalização e tratamento de valores ausentes
+> Redução de dimensionalidade com PCA
+> Clusterização não supervisionada
+> KMeans
+> HDBSCAN
 
-Leitura e pré-processamento dos sinais de vibração
+## Classificação de estados operacionais
 
-Extração de features no domínio do tempo
+> Normal
+> Atenção
+> Alerta
 
-RMS
-
-Kurtosis
-
-Estatísticas descritivas por janela
-
-Normalização e tratamento de valores ausentes
-
-Redução de dimensionalidade com PCA
-
-Clusterização não supervisionada
-
-KMeans
-
-HDBSCAN
-
-Classificação de estados operacionais
-
-Normal
-
-Atenção
-
-Alerta
-
-Persistência dos dados em formato Parquet
+## Persistência dos dados em formato Parquet
 
 Visualização interativa via Streamlit
 
